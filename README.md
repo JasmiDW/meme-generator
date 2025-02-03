@@ -1,9 +1,20 @@
-# React + Vite
+# Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un **générateur de mèmes** construit en **React** dans le cadre du cours Scrimba. Il permet aux utilisateurs de choisir une image de mème aléatoire et d'y ajouter du texte personnalisé.
 
-Currently, two official plugins are available:
+## Fonctionnalités
+- Affichage d'une image de mème aléatoire depuis une API.
+- Ajout de texte personnalisé en haut et en bas de l'image.
+- Mise à jour dynamique de l'affichage du texte.
+- Interface utilisateur simple et intuitive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# meme-generator
+## Technologies utilisées
+- **React** (Hooks : `useState`)
+- **JavaScript** (ES6+)
+- **CSS** pour le style
+- API de mèmes pour récupérer les images
+
+## Améliorations possibles
+- Ajout d'une fonctionnalité pour télécharger le mème généré.
+- Permettre aux utilisateurs d'importer leurs propres images.
+- Options avancées de personnalisation (couleurs, police, taille du texte).
